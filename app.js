@@ -13,7 +13,7 @@ const app = express();
 
 // View Engine 
 app.engine('handlebars', exphbs({defaultLayout:'main'}));
-app.set('view engine', 'handlebares');
+app.set('view engine', 'handlebars');
 
 // body-parser
 // parse application/x-www-form-urlencoded
